@@ -1,0 +1,122 @@
+.hero-section {
+    color:#ffffff;
+    @include breakpoint (large) {
+        border-bottom:10px solid #D8D8D8;
+    }
+    .hero-header {
+        background-color: rgba(37,37,37,.4);
+        @include breakpoint (large) {
+            padding:10px 20px;
+            margin-top:67px;
+            margin-bottom:50px;
+        }
+        h1 {
+            padding-bottom:0px;
+        }
+    }
+    .hero-subhead {
+            @include breakpoint (large) {
+                max-width:1024px;
+                margin-top:50px;
+                margin-bottom:50px;
+                border-left: 6px solid #FFC627;
+            }
+        p {
+            font-size:22px;
+            line-height:30px;
+        }
+    }
+    .hero-tag {
+        @include breakpoint (large) {
+            margin-top:50px;
+            margin-bottom:50px;
+            h2 {
+                font-size:32px;
+                line-height:32px;
+            }
+        }
+    }
+}
+.callout-section {
+    background-color:black;
+    color:#ffffff;
+    .callout-quote {
+        max-width:928px;
+        margin:40px auto 0;
+        background-color: rgba(37,37,37,.4);
+        @include breakpoint (large) {
+            padding:11px 30px 14px 30px;
+            margin-top:40px;
+        }
+        h3 {
+            @include breakpoint (large) {
+                font-size:32px;
+                line-height:38px;
+            }
+        }
+    }
+    .callout-author {
+        font-size:22px;
+        line-height:25px;
+        padding:8px 11px;
+        max-width:928px;
+        margin:0 auto;
+        background-color: rgba(37,37,37,.4);
+        @include breakpoint (large) {
+            margin-top:20px;
+            margin-bottom:40px;
+        }
+    }
+}
+.leadership-section {
+    color:#ffffff;
+    @include breakpoint (large) {
+        padding-top:60px;
+        padding-bottom:60px;
+    }
+    h2 {
+        max-width: 1044px;
+        margin: 0 auto;
+        @include breakpoint (large) {
+            font-size:30px;
+            line-height:40px;
+            color:#ffffff;
+            margin-bottom:22px;
+
+        }
+    }
+    .leader-flex {
+        color:#ffffff;
+        padding-left:0px;
+        padding-right:0px;
+        max-width: 1044px;
+        @include breakpoint (large) {
+            display: flex;
+        }
+        .leader-left {
+            @include breakpoint (large) {
+                margin-right:20px;
+            }
+            .leader-image {
+                margin:0 auto;
+            }
+        }
+        .leader-right {
+            max-width: 844px;
+            .leader-name {
+                font-size:18px;
+                line-height: 25px;
+                font-weight:500;
+            }
+            .leader-title {
+                font-weight: 300;
+                font-size:16px;
+                line-height: 25px;
+            }
+            .leader-bio {
+                font-size:18px;
+                line-height:25px;
+            }
+        }
+    }
+}

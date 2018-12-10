@@ -1,0 +1,4 @@
+name: global-futures
+recipe: wordpress
+config:
+  webroot: web
