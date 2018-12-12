@@ -56,7 +56,7 @@
     padding-left:80px;
     padding-right:80px;
   }
-  @include breakpoint (medium) {
+  @include breakpoint (medium only) {
     padding:30px;
     margin:0px auto;
   }

@@ -27,7 +27,7 @@ get_header(); ?>
 						} ?>
 				</div>
 			</div>
-			<div class="callout-section content-wrap">
+			<div class="callout-section content-wrap" style="background-size:cover; background-image:url('<?php the_field('callout_image'); ?>');">
 				<div class="callout-quote">
 					<h3><?php the_field('callout_quote')?></h3>
 				</div>

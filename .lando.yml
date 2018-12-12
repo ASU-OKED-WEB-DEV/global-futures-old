@@ -2,3 +2,11 @@ name: gfwp
 recipe: wordpress
 config:
   webroot: web
+proxy:
+  pma:
+    - pma.wordpress.lndo.site
+services:
+  pma:
+    type: phpmyadmin
+    host:
+      - database

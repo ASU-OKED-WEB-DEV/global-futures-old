@@ -1,0 +1,71 @@
+.main-container {
+  margin:0 auto;
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.main-grid {
+  &.sidebar-left {
+    // Place the sidebar below main content on small screens ...
+    @include breakpoint(small) {
+      .main-content { order: 1; }
+      .sidebar { order: 2; }
+    }
+
+    // ... and to the left on medium-up screens, when using the sidebar-left template
+    @include breakpoint(medium) {
+      .main-content { order: 2; }
+      .sidebar { order: 1; }
+    }
+  }
+
+  // Full width template
+  .main-content-full-width {
+    @include xy-cell(12);
+  }
+
+  // Default template
+  .main-content {
+    margin:0 auto;
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+  .sidebar {
+    @include breakpoint(small) {
+      @include xy-cell(12);
+    }
+
+    @include breakpoint(medium) {
+      @include xy-cell(4);
+      margin-top: 1rem;
+    }
+
+  }
+}
+.content-wrap {
+  @include breakpoint (large) {
+    padding-top: 40px;
+    padding-bottom:40px;
+  }
+}
+.content-wrap > div {
+  max-width: 1200px;
+  margin:0 auto;
+  @include breakpoint (large) {
+    padding-left:80px;
+    padding-right:80px;
+  }
+  @include breakpoint (medium) {
+    padding:30px;
+    margin:0px auto;
+  }
+  @include breakpoint (small) {
+    padding:20px;
+    margin:0px auto;
+  }
+}
+.page-content {
+  max-width: 1044px;
+  margin:0 auto;
+}

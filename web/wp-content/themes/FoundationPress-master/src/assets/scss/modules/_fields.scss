@@ -89,7 +89,7 @@
             margin-bottom:22px;
             padding-left:40px;
         }
-        @include breakpoint (medium) {
+        @include breakpoint (medium only) {
             padding:30px;
         }
         @include breakpoint (small only) {
@@ -109,6 +109,7 @@
             display:block;
             text-align: center;
         }
+
         .leader-left {
             margin-right:20px;
             @include breakpoint (small) {
@@ -116,6 +117,9 @@
             }
             .leader-image {
                 margin:0 auto;
+                @include breakpoint (medium up) {
+                    padding-right:15px
+                }
             }
         }
         .leader-right {
@@ -132,6 +136,9 @@
                 font-weight: 300;
                 font-size:16px;
                 line-height: 25px;
+                @include breakpoint (small) {
+                    margin-bottom:15px;
+                }
             }
             .leader-bio {
                 font-size:18px;
@@ -140,7 +147,6 @@
         }
     }
 }
-
 .bullet-section {
     ul {
         @include breakpoint (large) {
@@ -162,7 +168,7 @@
             @include breakpoint (large) {
                 margin-right:142px;
             }
-            @include breakpoint (medium) {
+            @include breakpoint (medium only) {
                 padding-left:20px;
                 padding-right:20px;
             }
@@ -174,26 +180,28 @@
             }
         }
         .bullet-content {
-            @include breakpoint (medium) {
+            @include breakpoint (medium only) {
                 margin-left:20px;
                 margin-right:20px;
             }
         }
     }
+
     .bullet-wrap-2 {
         display: flex;
         @include breakpoint (small only) {
             display: block;
         }
         @include breakpoint (large) {
-            max-width: 1220px;
+            max-width: 1102px;
             padding-top:60px;
         }
         .bullet-header {
             @include breakpoint (large) {
                 margin-right:62px;
+                width:162px;
             }
-            @include breakpoint (medium) {
+            @include breakpoint (medium only) {
                 padding-left:20px;
                 padding-right:20px;
             }
