@@ -1,0 +1,4 @@
+name: gfwp
+recipe: wordpress
+config:
+  webroot: web
