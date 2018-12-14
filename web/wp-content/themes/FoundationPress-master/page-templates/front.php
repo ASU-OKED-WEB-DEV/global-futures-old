@@ -128,9 +128,10 @@ get_header(); ?>
 					?>
 					<div class="read-more-button">
 						<a href="<?php the_field('read_more_link'); ?>"><?php the_field('read_more_text'); ?></a>
+					</div>
 				</div>
 			</div>
-		</div>
+		</main>
 	</div>
 </div>
 <?php get_footer();

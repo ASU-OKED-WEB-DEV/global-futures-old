@@ -69,14 +69,14 @@
     line-height: 19px;
 
     &:hover:not(.button) {
-      background-color: #42525D;
+      color: #FFC627;
     }
   }
 
   .menu .active > a { background-color: #ccc; }
 
   .menu>li:not(.menu-text)>a { padding: 1rem 1.2rem; }
-  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+  .menu li:not(:last-cshild) { border-right: 1px solid #4e4e4e; }
 
   .dropdown.menu .submenu { border: 0; }
   .dropdown.menu .has-submenu.is-down-arrow a { padding-right: 1rem; }
@@ -139,4 +139,17 @@
       top:146px;
     }
   }
+}
+ul.dropdown.menu.desktop-menu {
+  li:first-child {
+      a {
+        font:normal normal normal 18px/1 FontAwesome;
+        &::before {
+          content: "\f015";
+      }
+    }
+  }
+}
+.menu .is-active > a {
+  background:none;
 }
