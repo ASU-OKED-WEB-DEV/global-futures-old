@@ -11,11 +11,28 @@
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?> >
 	<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+	<?php
+$request = wp_remote_get('https://www.asu.edu/asuthemes/4.6/heads/default.shtml');
+$response = wp_remote_retrieve_body( $request );
+echo $response;
+?>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+	
+<!-- Begin ASU Header -->
+<div class="asu-head">
+<?php
+$request = wp_remote_get('https://www.asu.edu/asuthemes/4.6/headers/default.shtml');
+$response = wp_remote_retrieve_body( $request );
+echo $response;
+?>
+<h1 class="site-head-title"><?php bloginfo( 'name' ); ?></h1>
+</div>
+<!-- End ASU Header -->
 
 	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
 		<?php get_template_part( 'template-parts/mobile-off-canvas' ); ?>

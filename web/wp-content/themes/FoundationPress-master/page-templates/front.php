@@ -6,7 +6,7 @@ get_header(); ?>
 <div class="main-container">
 	<div class="main-grid">
 		<main class="main-content">
-			<header class="hero-section content-wrap" style="background-image:url('<?php the_post_thumbnail_url(); ?>');">
+			<header class="hero-section content-wrap" style="background-size:cover; background-image:url('<?php the_post_thumbnail_url(); ?>');">
 				<div class="hero-header page-content">
 					<h1><?php the_field('hero_headline');?></h1>
 				</div>
@@ -27,7 +27,7 @@ get_header(); ?>
 						} ?>
 				</div>
 			</div>
-			<div class="callout-section content-wrap">
+			<div class="callout-section content-wrap" style="background-size:cover; background-image:url('<?php the_field('callout_image'); ?>');">
 				<div class="callout-quote">
 					<h3><?php the_field('callout_quote')?></h3>
 				</div>
@@ -37,25 +37,26 @@ get_header(); ?>
 			</div>
 
 			<div class="bullet-section content-wrap">
-				<div class="bullet-wrap">
+				<div class="bullet-wrap-1">
 					<div class="bullet-header">
-						<?php 
+						<h3><?php 
 						$bullet = get_field('bullet_section');
 						echo $bullet['bullet_left_header'];
-						?>	
+						?></h3>
 					</div>
 					<div class="bullet-content">
 						<?php echo $bullet['bullet_right_content'];?>	
 					</div>
 				</div>
-				<div class="bullet-wrap">
+				<hr />
+				<div class="bullet-wrap-2">
 					<div class="bullet-header">
-						<?php 
+						<h3><?php 
 						$bullet = get_field('bullet_section_2');
 						echo $bullet['bullet_left_header_2'];
-						?>	
+						?></h3>
 					</div>
-					<div class="bullet-content">
+					<div class="bullet-content middle">
 						<?php echo $bullet['bullet_middle_content'];?>	
 					</div>
 					<div class="bullet-content">
@@ -84,40 +85,50 @@ get_header(); ?>
 						</div>
 						<div class="social-wrap">
 							<div class="isearch">
-								<?php echo $leader['leader_isearch'];?>
+								<a class="is-fa" href="<?php echo $leader['leader_isearch'];?>"><i class="fa fa-info-circle fa-lg"></i></a>
 							</div>
 							<div class="linkedin">
-								<?php echo $leader['leader_linkedin'];?>
+								<a class="li-fa" href="<?php echo $leader['leader_linkedin'];?>"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="news-wrap content-wrap">
-				<?php
+				<div class="news-header">
+					<h2>News and Events</h2>
+				</div>
+				<div class="news-posts">
+					<?php
 
-				// The Query
-				$args = array(
-					'category_name' => 'news'
-				);
-				$the_query = new WP_Query( $args );
-				// The Loop
-				if ( $the_query->have_posts() ) {
-					while ( $the_query->have_posts() ) {
-						$the_query->the_post();?>
-						<div class="news-post">
-						<h3><?php the_title(); ?></h3>
-						<div class="news-info">
-						<?php the_author() . the_date();?>
-						<p><?php the_excerpt(); ?></p>
-						</div><?php
+					// The Query
+					$args = array(
+						'category_name' => 'news'
+					);
+					$the_query = new WP_Query( $args );
+					// The Loop
+					if ( $the_query->have_posts() ) {
+						while ( $the_query->have_posts() ) {
+							$the_query->the_post();?>
+							<div class="news-post">
+							<h3><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h3>
+							<div class="news-info">
+								<div class="news-sub">
+									<div class="author"><?php the_author()?></div><div class="date"><?php echo get_the_date(); ?></div>
+								</div>
+							<p><?php the_excerpt(); ?></p>
+							</div>
+							</div><?php
+						}
+						/* Restore original Post Data */
+						wp_reset_postdata();
+					} else {
+						// no posts found
 					}
-					/* Restore original Post Data */
-					wp_reset_postdata();
-				} else {
-					// no posts found
-				}
-				?>
+					?>
+					<div class="read-more-button">
+						<a href="<?php the_field('read_more_link'); ?>"><?php the_field('read_more_text'); ?></a>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -1,0 +1,18 @@
+{
+  "name": "global-futures",
+  "homepage": "https://github.com/ASU-OKED-WEB-DEV/global-futures-wp",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "^5.6.1"
+  }
+}

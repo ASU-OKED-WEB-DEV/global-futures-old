@@ -69,3 +69,39 @@
   max-width: 1044px;
   margin:0 auto;
 }
+.asu-head {
+  max-width:1276px;
+  margin:0 auto;
+  margin-bottom: 15px;
+  h1.site-head-title {
+    font-size:24px;
+    line-height:28px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+}
+
+//default page css 
+.page-template-default {
+  .main-container {
+    padding:20px;
+    .main-grid {
+      @include breakpoint (small only) {
+        display:block;
+      }
+      display:flex;
+      .main-content {
+        width: calc(66.6666% - 1.875rem);
+        @include breakpoint (small only) {
+          width:100%;
+        }
+      }
+    }
+  }
+}
+nav.mobile-off-canvas-menu.off-canvas.position-left.is-transition-push.is-open {
+  @include breakpoint (small only) {
+    z-index: 9999;
+    overflow: hidden;
+  }
+}
