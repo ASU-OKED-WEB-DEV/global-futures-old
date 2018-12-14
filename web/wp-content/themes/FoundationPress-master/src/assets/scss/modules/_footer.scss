@@ -1,17 +1,43 @@
 .footer-container {
+  background-color: #353535;
+  color:#EDEDED;
   @include xy-grid-container;
   border-top: 1px solid $medium-gray;
-  margin-top: rem-calc(60);
+  a {
+    color:#EDEDED;
+  }
+  @include breakpoint (small only) {
+    text-align:center;
+    padding-left:0px;
+    padding-right:0px;
+  }
 }
 
 .footer-grid {
   @include xy-grid;
   padding: rem-calc(30) 0;
-
+  justify-content: space-between;
+  max-width: 1200px;
+  margin:0 auto;
+  @include breakpoint (large) {
+    padding-top:41px;
+    padding-bottom:130px;
+  }
+  & > div {
+    @include breakpoint (small only) {
+      margin:0 auto;
+      width:100%;
+    }
+  }
   section {
     @include xy-cell();
     @include breakpoint(large) {
       @include xy-cell(auto);
+    }
+    @include breakpoint (small only) {
+      width:100%;
+      margin-right: 0; 
+      margin-left: 0; 
     }
   }
 
@@ -19,5 +45,34 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+}
+#menu-footer-menu {
+  @include breakpoint (large) {
+    border-top: 1px solid #ededed;
+    padding-top:17px;
+    width:251px
+  }
+  display: flex;
+  flex-direction: column;
+  li {
+    @include breakpoint (small only) {
+      border-top:1px solid #ededed;  
+      &:last-child {
+        border-bottom:1px solid #ededed;
+      }
+    }
+    a {
+      padding:7px 0px;
+      font-size:18px;
+      @include breakpoint (small only) {
+        padding:14px 24px;
+        width:100%;
+        background-color: #353535; 
+        &:hover {
+          background-color: lighten(#353535, 10%);    
+        }
+      }
+    }
   }
 }

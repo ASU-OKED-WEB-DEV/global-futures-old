@@ -1,0 +1,445 @@
+0000.002 (0) Opened log file at time: Fri, 14 Dec 2018 00:04:25 +0000 on http://gfwp.lndo.site
+0000.012 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0 PHP: 7.1.24 (apache2handler, Linux 7285940ae24f 4.9.125-linuxkit #1 SMP Fri Sep 7 08:20:28 UTC 2018 x86_64) MySQL: 5.7.24 WPLANG: en_US Server: Apache/2.4.10 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.3M | 4M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.021 (0) Free space on disk containing Updraft's temporary directory: 92881.9 MB
+0000.058 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.072 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.083 (0) Set semaphore last lock (fd) time to 2018-12-14 00:04:25
+0000.092 (0) Semaphore lock (fd) complete
+0000.119 (0) Backup run: resumption=0, nonce=7f6f705d39c8, begun at=1544745865 (0s ago), job type=backup
+0000.132 (0) Scheduling a resumption (1) after 300 seconds (1544746165) in case this run gets aborted
+0000.149 (0) Checking if we have a zip executable available
+0000.163 (0) Creation of backups of directories: beginning
+0000.191 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.435 (0) Total entities for the zip file: 241 directories, 1609 files (0 skipped as non-modified), 30.1 MB
+0002.655 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.790 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.9 MB, 166 (166) files added so far); re-opening (prior size: 0 KB)
+0004.271 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 200 files added (on-disk size: 1188.8 KB)
+0004.511 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 300 files added (on-disk size: 1188.8 KB)
+0004.723 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 400 files added (on-disk size: 1188.8 KB)
+0004.942 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 500 files added (on-disk size: 1188.8 KB)
+0005.147 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 600 files added (on-disk size: 1188.8 KB)
+0005.427 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (21.6 MB, 1609 files batched, 501 (667) added so far); re-opening (prior size: 1188.8 KB)
+0010.600 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 700 files added (on-disk size: 7283.6 KB)
+0010.814 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 800 files added (on-disk size: 7283.6 KB)
+0011.041 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 900 files added (on-disk size: 7283.6 KB)
+0011.254 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 1000 files added (on-disk size: 7283.6 KB)
+0011.487 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 1100 files added (on-disk size: 7283.6 KB)
+0011.664 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3 MB, 1609 files batched, 501 (1168) added so far); re-opening (prior size: 7283.6 KB)
+0014.346 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 1200 files added (on-disk size: 8212.5 KB)
+0014.544 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 1300 files added (on-disk size: 8212.5 KB)
+0014.731 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 1400 files added (on-disk size: 8212.5 KB)
+0014.927 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 1500 files added (on-disk size: 8212.5 KB)
+0015.111 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip.tmp: 1600 files added (on-disk size: 8212.5 KB)
+0016.905 (0) Created plugins zip (0) - 8864.6 KB in 16.7 s (531.6 KB/s) (sha1: fc4d3955a97ce205e2e66028755a6aafe360da2f, sha256: e40a25b1493628b14e915af5ad4a0414b73ed267fbca60d59f3b5b983f3a0fb6)
+0016.945 (0) Beginning creation of dump of themes (split every: 400 MB)
+0045.433 (0) Total entities for the zip file: 3659 directories, 22859 files (0 skipped as non-modified), 110.5 MB
+0045.527 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0051.109 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 100 files added (on-disk size: 793.3 KB)
+0051.296 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 200 files added (on-disk size: 793.3 KB)
+0051.496 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 300 files added (on-disk size: 793.3 KB)
+0051.674 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 400 files added (on-disk size: 793.3 KB)
+0051.856 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 500 files added (on-disk size: 793.3 KB)
+0051.865 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10 MB, 22859 files batched, 501 (502) added so far); re-opening (prior size: 793.3 KB)
+0054.538 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 600 files added (on-disk size: 4238 KB)
+0054.756 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 700 files added (on-disk size: 4238 KB)
+0054.933 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 800 files added (on-disk size: 4238 KB)
+0055.113 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 900 files added (on-disk size: 4238 KB)
+0055.290 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1000 files added (on-disk size: 4238 KB)
+0055.302 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.1 MB, 22859 files batched, 501 (1003) added so far); re-opening (prior size: 4238 KB)
+0057.580 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1100 files added (on-disk size: 5172.2 KB)
+0057.763 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1200 files added (on-disk size: 5172.2 KB)
+0057.944 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1300 files added (on-disk size: 5172.2 KB)
+0058.129 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1400 files added (on-disk size: 5172.2 KB)
+0058.327 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1500 files added (on-disk size: 5172.2 KB)
+0058.341 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1 MB, 22859 files batched, 501 (1504) added so far); re-opening (prior size: 5172.2 KB)
+0060.292 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1600 files added (on-disk size: 5620.1 KB)
+0060.461 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1700 files added (on-disk size: 5620.1 KB)
+0060.627 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1800 files added (on-disk size: 5620.1 KB)
+0060.809 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 1900 files added (on-disk size: 5620.1 KB)
+0061.003 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2000 files added (on-disk size: 5620.1 KB)
+0061.028 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.3 MB, 22859 files batched, 501 (2005) added so far); re-opening (prior size: 5620.1 KB)
+0062.584 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2100 files added (on-disk size: 5863.9 KB)
+0062.730 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2200 files added (on-disk size: 5863.9 KB)
+0062.875 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2300 files added (on-disk size: 5863.9 KB)
+0063.022 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2400 files added (on-disk size: 5863.9 KB)
+0063.224 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2500 files added (on-disk size: 5863.9 KB)
+0063.241 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 22859 files batched, 501 (2506) added so far); re-opening (prior size: 5863.9 KB)
+0065.225 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2600 files added (on-disk size: 6555.3 KB)
+0065.439 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2700 files added (on-disk size: 6555.3 KB)
+0065.613 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2800 files added (on-disk size: 6555.3 KB)
+0065.831 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 2900 files added (on-disk size: 6555.3 KB)
+0066.050 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3000 files added (on-disk size: 6555.3 KB)
+0066.072 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 22859 files batched, 501 (3007) added so far); re-opening (prior size: 6555.3 KB)
+0068.220 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3100 files added (on-disk size: 7373.9 KB)
+0068.399 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3200 files added (on-disk size: 7373.9 KB)
+0068.592 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3300 files added (on-disk size: 7373.9 KB)
+0068.768 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3400 files added (on-disk size: 7373.9 KB)
+0068.933 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3500 files added (on-disk size: 7373.9 KB)
+0068.952 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 22859 files batched, 501 (3508) added so far); re-opening (prior size: 7373.9 KB)
+0071.210 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3600 files added (on-disk size: 8245.8 KB)
+0071.388 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3700 files added (on-disk size: 8245.8 KB)
+0071.562 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3800 files added (on-disk size: 8245.8 KB)
+0071.812 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 3900 files added (on-disk size: 8245.8 KB)
+0071.992 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4000 files added (on-disk size: 8245.8 KB)
+0072.013 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.8 MB, 22859 files batched, 501 (4009) added so far); re-opening (prior size: 8245.8 KB)
+0074.448 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4100 files added (on-disk size: 8607.8 KB)
+0074.666 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4200 files added (on-disk size: 8607.8 KB)
+0074.889 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4300 files added (on-disk size: 8607.8 KB)
+0075.110 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4400 files added (on-disk size: 8607.8 KB)
+0075.341 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4500 files added (on-disk size: 8607.8 KB)
+0075.369 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.5 MB, 22859 files batched, 501 (4510) added so far); re-opening (prior size: 8607.8 KB)
+0077.867 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4600 files added (on-disk size: 8895.5 KB)
+0078.090 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4700 files added (on-disk size: 8895.5 KB)
+0078.272 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4800 files added (on-disk size: 8895.5 KB)
+0078.447 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 4900 files added (on-disk size: 8895.5 KB)
+0078.619 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5000 files added (on-disk size: 8895.5 KB)
+0078.645 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.2 MB, 22859 files batched, 501 (5011) added so far); re-opening (prior size: 8895.5 KB)
+0080.962 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5100 files added (on-disk size: 9702.4 KB)
+0081.191 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5200 files added (on-disk size: 9702.4 KB)
+0081.417 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5300 files added (on-disk size: 9702.4 KB)
+0081.637 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5400 files added (on-disk size: 9702.4 KB)
+0081.818 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5500 files added (on-disk size: 9702.4 KB)
+0081.845 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.7 MB, 22859 files batched, 501 (5512) added so far); re-opening (prior size: 9702.4 KB)
+0083.946 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5600 files added (on-disk size: 10097.4 KB)
+0084.134 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5700 files added (on-disk size: 10097.4 KB)
+0084.413 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5800 files added (on-disk size: 10097.4 KB)
+0084.599 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 5900 files added (on-disk size: 10097.4 KB)
+0084.807 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6000 files added (on-disk size: 10097.4 KB)
+0084.839 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.2 MB, 22859 files batched, 501 (6013) added so far); re-opening (prior size: 10097.4 KB)
+0087.256 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6100 files added (on-disk size: 10960.3 KB)
+0087.478 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6200 files added (on-disk size: 10960.3 KB)
+0087.694 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6300 files added (on-disk size: 10960.3 KB)
+0087.912 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6400 files added (on-disk size: 10960.3 KB)
+0088.129 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6500 files added (on-disk size: 10960.3 KB)
+0088.164 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 22859 files batched, 501 (6514) added so far); re-opening (prior size: 10960.3 KB)
+0090.483 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6600 files added (on-disk size: 11784.7 KB)
+0090.656 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6700 files added (on-disk size: 11784.7 KB)
+0090.873 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6800 files added (on-disk size: 11784.7 KB)
+0091.049 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 6900 files added (on-disk size: 11784.7 KB)
+0091.223 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7000 files added (on-disk size: 11784.7 KB)
+0091.255 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 MB, 22859 files batched, 501 (7015) added so far); re-opening (prior size: 11784.7 KB)
+0093.580 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7100 files added (on-disk size: 12812.8 KB)
+0093.730 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7200 files added (on-disk size: 12812.8 KB)
+0093.887 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7300 files added (on-disk size: 12812.8 KB)
+0094.045 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7400 files added (on-disk size: 12812.8 KB)
+0094.195 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7500 files added (on-disk size: 12812.8 KB)
+0094.224 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.3 MB, 22859 files batched, 501 (7516) added so far); re-opening (prior size: 12812.8 KB)
+0096.600 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7600 files added (on-disk size: 13997.9 KB)
+0096.802 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7700 files added (on-disk size: 13997.9 KB)
+0097.003 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7800 files added (on-disk size: 13997.9 KB)
+0097.245 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 7900 files added (on-disk size: 13997.9 KB)
+0097.431 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8000 files added (on-disk size: 13997.9 KB)
+0097.467 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 MB, 22859 files batched, 501 (8017) added so far); re-opening (prior size: 13997.9 KB)
+0099.043 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8100 files added (on-disk size: 14641.7 KB)
+0099.216 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8200 files added (on-disk size: 14641.7 KB)
+0099.432 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8300 files added (on-disk size: 14641.7 KB)
+0099.653 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8400 files added (on-disk size: 14641.7 KB)
+0099.873 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8500 files added (on-disk size: 14641.7 KB)
+0099.920 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10 MB, 22859 files batched, 501 (8518) added so far); re-opening (prior size: 14641.7 KB)
+0103.256 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8600 files added (on-disk size: 17925.7 KB)
+0103.439 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8700 files added (on-disk size: 17925.7 KB)
+0103.669 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8800 files added (on-disk size: 17925.7 KB)
+0103.827 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 8900 files added (on-disk size: 17925.7 KB)
+0103.988 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9000 files added (on-disk size: 17925.7 KB)
+0104.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.2 MB, 22859 files batched, 501 (9019) added so far); re-opening (prior size: 17925.7 KB)
+0106.174 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9100 files added (on-disk size: 18659.2 KB)
+0106.432 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9200 files added (on-disk size: 18659.2 KB)
+0106.698 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9300 files added (on-disk size: 18659.2 KB)
+0106.947 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9400 files added (on-disk size: 18659.2 KB)
+0107.175 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9500 files added (on-disk size: 18659.2 KB)
+0107.225 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.3 MB, 22859 files batched, 501 (9520) added so far); re-opening (prior size: 18659.2 KB)
+0109.816 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9600 files added (on-disk size: 19204.3 KB)
+0110.074 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9700 files added (on-disk size: 19204.3 KB)
+0110.231 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9800 files added (on-disk size: 19204.3 KB)
+0110.392 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 9900 files added (on-disk size: 19204.3 KB)
+0110.550 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10000 files added (on-disk size: 19204.3 KB)
+0110.589 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.6 MB, 22859 files batched, 501 (10021) added so far); re-opening (prior size: 19204.3 KB)
+0112.510 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10100 files added (on-disk size: 19525.7 KB)
+0112.733 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10200 files added (on-disk size: 19525.7 KB)
+0112.947 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10300 files added (on-disk size: 19525.7 KB)
+0113.172 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10400 files added (on-disk size: 19525.7 KB)
+0113.396 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10500 files added (on-disk size: 19525.7 KB)
+0113.463 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.3 MB, 22859 files batched, 501 (10522) added so far); re-opening (prior size: 19525.7 KB)
+0115.390 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10600 files added (on-disk size: 19770.7 KB)
+0115.608 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10700 files added (on-disk size: 19770.7 KB)
+0115.825 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10800 files added (on-disk size: 19770.7 KB)
+0116.044 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 10900 files added (on-disk size: 19770.7 KB)
+0116.275 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11000 files added (on-disk size: 19770.7 KB)
+0116.339 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.2 MB, 22859 files batched, 501 (11023) added so far); re-opening (prior size: 19770.7 KB)
+0117.994 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11100 files added (on-disk size: 19968.1 KB)
+0118.161 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11200 files added (on-disk size: 19968.1 KB)
+0118.341 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11300 files added (on-disk size: 19968.1 KB)
+0118.548 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11400 files added (on-disk size: 19968.1 KB)
+0118.743 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11500 files added (on-disk size: 19968.1 KB)
+0118.787 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 MB, 22859 files batched, 501 (11524) added so far); re-opening (prior size: 19968.1 KB)
+0120.705 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11600 files added (on-disk size: 20789.4 KB)
+0120.866 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11700 files added (on-disk size: 20789.4 KB)
+0121.007 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11800 files added (on-disk size: 20789.4 KB)
+0121.175 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 11900 files added (on-disk size: 20789.4 KB)
+0121.344 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12000 files added (on-disk size: 20789.4 KB)
+0121.393 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 22859 files batched, 501 (12025) added so far); re-opening (prior size: 20789.4 KB)
+0123.607 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12100 files added (on-disk size: 21648.3 KB)
+0123.783 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12200 files added (on-disk size: 21648.3 KB)
+0123.961 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12300 files added (on-disk size: 21648.3 KB)
+0124.130 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12400 files added (on-disk size: 21648.3 KB)
+0124.302 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12500 files added (on-disk size: 21648.3 KB)
+0124.352 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 MB, 22859 files batched, 501 (12526) added so far); re-opening (prior size: 21648.3 KB)
+0126.624 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12600 files added (on-disk size: 22196.3 KB)
+0126.798 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12700 files added (on-disk size: 22196.3 KB)
+0126.983 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12800 files added (on-disk size: 22196.3 KB)
+0127.209 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 12900 files added (on-disk size: 22196.3 KB)
+0127.425 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13000 files added (on-disk size: 22196.3 KB)
+0127.487 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.5 MB, 22859 files batched, 501 (13027) added so far); re-opening (prior size: 22196.3 KB)
+0129.918 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13100 files added (on-disk size: 23333.1 KB)
+0130.131 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13200 files added (on-disk size: 23333.1 KB)
+0130.329 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13300 files added (on-disk size: 23333.1 KB)
+0130.523 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13400 files added (on-disk size: 23333.1 KB)
+0130.729 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13500 files added (on-disk size: 23333.1 KB)
+0130.798 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 MB, 22859 files batched, 501 (13528) added so far); re-opening (prior size: 23333.1 KB)
+0132.839 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13600 files added (on-disk size: 24595.3 KB)
+0133.049 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13700 files added (on-disk size: 24595.3 KB)
+0133.273 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13800 files added (on-disk size: 24595.3 KB)
+0133.514 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 13900 files added (on-disk size: 24595.3 KB)
+0133.715 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14000 files added (on-disk size: 24595.3 KB)
+0133.780 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 22859 files batched, 501 (14029) added so far); re-opening (prior size: 24595.3 KB)
+0135.934 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14100 files added (on-disk size: 25241.3 KB)
+0136.108 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14200 files added (on-disk size: 25241.3 KB)
+0136.268 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14300 files added (on-disk size: 25241.3 KB)
+0136.418 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14400 files added (on-disk size: 25241.3 KB)
+0136.578 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14500 files added (on-disk size: 25241.3 KB)
+0136.631 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.2 MB, 22859 files batched, 501 (14530) added so far); re-opening (prior size: 25241.3 KB)
+0139.859 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14600 files added (on-disk size: 27092.1 KB)
+0140.076 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14700 files added (on-disk size: 27092.1 KB)
+0140.263 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14800 files added (on-disk size: 27092.1 KB)
+0140.500 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 14900 files added (on-disk size: 27092.1 KB)
+0140.719 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15000 files added (on-disk size: 27092.1 KB)
+0140.799 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 MB, 22859 files batched, 501 (15031) added so far); re-opening (prior size: 27092.1 KB)
+0143.175 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15100 files added (on-disk size: 28105.2 KB)
+0143.382 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15200 files added (on-disk size: 28105.2 KB)
+0143.570 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15300 files added (on-disk size: 28105.2 KB)
+0143.770 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15400 files added (on-disk size: 28105.2 KB)
+0144.033 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15500 files added (on-disk size: 28105.2 KB)
+0144.103 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.4 MB, 22859 files batched, 501 (15532) added so far); re-opening (prior size: 28105.2 KB)
+0146.566 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15600 files added (on-disk size: 28965 KB)
+0146.752 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15700 files added (on-disk size: 28965 KB)
+0146.939 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15800 files added (on-disk size: 28965 KB)
+0147.128 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 15900 files added (on-disk size: 28965 KB)
+0147.332 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16000 files added (on-disk size: 28965 KB)
+0147.404 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 22859 files batched, 501 (16033) added so far); re-opening (prior size: 28965 KB)
+0149.597 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16100 files added (on-disk size: 29821.4 KB)
+0149.765 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16200 files added (on-disk size: 29821.4 KB)
+0149.945 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16300 files added (on-disk size: 29821.4 KB)
+0150.129 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16400 files added (on-disk size: 29821.4 KB)
+0150.298 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16500 files added (on-disk size: 29821.4 KB)
+0150.364 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 22859 files batched, 501 (16534) added so far); re-opening (prior size: 29821.4 KB)
+0152.688 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16600 files added (on-disk size: 30522.8 KB)
+0152.909 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16700 files added (on-disk size: 30522.8 KB)
+0153.125 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16800 files added (on-disk size: 30522.8 KB)
+0153.521 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 16900 files added (on-disk size: 30522.8 KB)
+0153.743 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17000 files added (on-disk size: 30522.8 KB)
+0153.823 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.9 MB, 22859 files batched, 501 (17035) added so far); re-opening (prior size: 30522.8 KB)
+0156.117 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17100 files added (on-disk size: 30954.5 KB)
+0156.345 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17200 files added (on-disk size: 30954.5 KB)
+0156.564 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17300 files added (on-disk size: 30954.5 KB)
+0156.787 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17400 files added (on-disk size: 30954.5 KB)
+0157.029 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17500 files added (on-disk size: 30954.5 KB)
+0157.113 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.6 MB, 22859 files batched, 501 (17536) added so far); re-opening (prior size: 30954.5 KB)
+0159.485 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17600 files added (on-disk size: 31286.9 KB)
+0159.640 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17700 files added (on-disk size: 31286.9 KB)
+0159.797 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17800 files added (on-disk size: 31286.9 KB)
+0159.950 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 17900 files added (on-disk size: 31286.9 KB)
+0160.105 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18000 files added (on-disk size: 31286.9 KB)
+0160.167 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.4 MB, 22859 files batched, 501 (18037) added so far); re-opening (prior size: 31286.9 KB)
+0161.781 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18100 files added (on-disk size: 31572.2 KB)
+0162.010 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18200 files added (on-disk size: 31572.2 KB)
+0162.243 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18300 files added (on-disk size: 31572.2 KB)
+0162.472 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18400 files added (on-disk size: 31572.2 KB)
+0162.695 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18500 files added (on-disk size: 31572.2 KB)
+0162.786 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.5 MB, 22859 files batched, 501 (18538) added so far); re-opening (prior size: 31572.2 KB)
+0164.714 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18600 files added (on-disk size: 31862.2 KB)
+0164.935 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18700 files added (on-disk size: 31862.2 KB)
+0165.152 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18800 files added (on-disk size: 31862.2 KB)
+0165.396 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 18900 files added (on-disk size: 31862.2 KB)
+0165.624 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19000 files added (on-disk size: 31862.2 KB)
+0165.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1 MB, 22859 files batched, 501 (19039) added so far); re-opening (prior size: 31862.2 KB)
+0167.763 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19100 files added (on-disk size: 32323.2 KB)
+0167.955 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19200 files added (on-disk size: 32323.2 KB)
+0168.149 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19300 files added (on-disk size: 32323.2 KB)
+0168.352 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19400 files added (on-disk size: 32323.2 KB)
+0168.533 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19500 files added (on-disk size: 32323.2 KB)
+0168.613 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 MB, 22859 files batched, 501 (19540) added so far); re-opening (prior size: 32323.2 KB)
+0171.020 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19600 files added (on-disk size: 33205.4 KB)
+0171.231 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19700 files added (on-disk size: 33205.4 KB)
+0171.443 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19800 files added (on-disk size: 33205.4 KB)
+0171.630 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 19900 files added (on-disk size: 33205.4 KB)
+0171.845 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20000 files added (on-disk size: 33205.4 KB)
+0171.926 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.1 MB, 22859 files batched, 501 (20041) added so far); re-opening (prior size: 33205.4 KB)
+0174.222 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20100 files added (on-disk size: 33639.1 KB)
+0174.457 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20200 files added (on-disk size: 33639.1 KB)
+0174.695 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20300 files added (on-disk size: 33639.1 KB)
+0174.914 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20400 files added (on-disk size: 33639.1 KB)
+0175.128 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20500 files added (on-disk size: 33639.1 KB)
+0175.214 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 MB, 22859 files batched, 501 (20542) added so far); re-opening (prior size: 33639.1 KB)
+0177.663 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20600 files added (on-disk size: 34642 KB)
+0177.844 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20700 files added (on-disk size: 34642 KB)
+0178.076 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20800 files added (on-disk size: 34642 KB)
+0178.330 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 20900 files added (on-disk size: 34642 KB)
+0178.535 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21000 files added (on-disk size: 34642 KB)
+0178.627 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.9 MB, 22859 files batched, 501 (21043) added so far); re-opening (prior size: 34642 KB)
+0180.952 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21100 files added (on-disk size: 35030.8 KB)
+0181.173 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21200 files added (on-disk size: 35030.8 KB)
+0181.379 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21300 files added (on-disk size: 35030.8 KB)
+0181.585 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21400 files added (on-disk size: 35030.8 KB)
+0181.800 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21500 files added (on-disk size: 35030.8 KB)
+0181.885 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.1 MB, 22859 files batched, 501 (21544) added so far); re-opening (prior size: 35030.8 KB)
+0184.157 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21600 files added (on-disk size: 35836.1 KB)
+0184.309 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21700 files added (on-disk size: 35836.1 KB)
+0184.462 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21800 files added (on-disk size: 35836.1 KB)
+0184.681 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 21900 files added (on-disk size: 35836.1 KB)
+0184.862 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 22000 files added (on-disk size: 35836.1 KB)
+0184.950 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.6 MB, 22859 files batched, 501 (22045) added so far); re-opening (prior size: 35836.1 KB)
+0187.743 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 22100 files added (on-disk size: 37556.1 KB)
+0187.922 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 22200 files added (on-disk size: 37556.1 KB)
+0188.097 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 22300 files added (on-disk size: 37556.1 KB)
+0188.279 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 22400 files added (on-disk size: 37556.1 KB)
+0188.457 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 22500 files added (on-disk size: 37556.1 KB)
+0188.545 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 22859 files batched, 501 (22546) added so far); re-opening (prior size: 37556.1 KB)
+0190.856 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 22600 files added (on-disk size: 38203.2 KB)
+0191.095 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 22700 files added (on-disk size: 38203.2 KB)
+0191.315 (0) Zip: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip.tmp: 22800 files added (on-disk size: 38203.2 KB)
+0193.400 (0) Created themes zip (0) - 38797.6 KB in 176.4 s (219.9 KB/s) (sha1: 85517ae2157e07a31713a8ce0161a90485981ea5, sha256: 171971b48dcec49176547950a8aed6ae4c7c96c9642056b97eac6c11ae178cee)
+0193.443 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0193.448 (0) Looking for candidates to backup in: /app/web/wp-content/uploads
+0193.454 (0) finding files: 2018: adding to list (1)
+0193.460 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0193.513 (0) Total entities for the zip file: 2 directories, 37 files (0 skipped as non-modified), 7.3 MB
+0193.830 (0) Created uploads zip (0) - 7487.8 KB in 0.3 s (21625 KB/s) (sha1: 02710586d31f02ad6015067e5b4b68c1f223c051, sha256: 50b442a938f3fb76f627b78ceb11667ee3585bbc7e7736a9a62dc9bf57468f2d)
+0193.868 (0) Beginning backup of other directories found in the content directory (index: 0)
+0193.874 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0193.879 (0) Looking for candidates to backup in: /app/web/wp-content
+0193.886 (0) finding files: .DS_Store-old: adding to list (1)
+0193.891 (0) finding files: upgrade: skipping: excluded by options
+0193.896 (0) finding files: .DS_Store: adding to list (2)
+0193.901 (0) finding files: index.php: adding to list (3)
+0193.906 (0) finding files: plugins: skipping: this is the plugins directory
+0193.911 (0) finding files: uploads: skipping: this is the uploads directory
+0193.916 (0) finding files: updraft: skipping: this is the updraft directory
+0193.921 (0) finding files: index.php-old: adding to list (4)
+0193.927 (0) finding files: plugins-old: adding to list (5)
+0193.932 (0) finding files: themes-old: adding to list (6)
+0193.937 (0) finding files: themes: skipping: this is the themes directory
+0193.942 (0) finding files: uploads-old: adding to list (7)
+0193.985 (0) Total entities for the zip file: 3 directories, 4 files (0 skipped as non-modified), 0 MB
+0194.030 (0) Created others zip (0) - 1.6 KB in 0.1 s (25.2 KB/s) (sha1: da0abdee3d83700b8c61ea0fb243b5468f3b0485, sha256: 032175a00851231788d97e32fbff5f25d43015b8664fa902f9a760fef6b4c3e8)
+0194.076 (0) Saving backup status to database (elements: 8)
+0194.089 (0) Beginning creation of database dump (WordPress DB)
+0194.101 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0194.131 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1205 bytes total)
+0194.137 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0194.160 (0) Table wp_options: Total expected rows (approximate): 169
+0194.226 (0) Table wp_options: Total rows added: 168 in 0.06 seconds
+0194.236 (0) Table wp_options: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_options.table.gz - 127.2 KB)
+0194.253 (0) Table wp_users: Total expected rows (approximate): 0
+0194.264 (0) Table wp_users: Total rows added: 1 in 0.01 seconds
+0194.271 (0) Table wp_users: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_users.table.gz - 0.5 KB)
+0194.289 (0) Table wp_usermeta: Total expected rows (approximate): 25
+0194.302 (0) Table wp_usermeta: Total rows added: 27 in 0.01 seconds
+0194.309 (0) Table wp_usermeta: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_usermeta.table.gz - 1.4 KB)
+0194.326 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0194.335 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0194.343 (0) Table wp_commentmeta: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0194.361 (0) Table wp_comments: Total expected rows (approximate): 0
+0194.372 (0) Table wp_comments: Total rows added: 1 in 0.01 seconds
+0194.380 (0) Table wp_comments: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_comments.table.gz - 0.7 KB)
+0194.397 (0) Table wp_links: Total expected rows (approximate): 0
+0194.406 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0194.413 (0) Table wp_links: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_links.table.gz - 0.4 KB)
+0194.430 (0) Table wp_postmeta: Total expected rows (approximate): 738
+0194.541 (0) Table wp_postmeta: Total rows added: 738 in 0.11 seconds
+0194.550 (0) Table wp_postmeta: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_postmeta.table.gz - 8.1 KB)
+0194.569 (0) Table wp_posts: Total expected rows (approximate): 79
+0194.645 (0) Table wp_posts: Total rows added: 79 in 0.07 seconds
+0194.655 (0) Table wp_posts: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_posts.table.gz - 7.8 KB)
+0194.673 (0) Table wp_term_relationships: Total expected rows (approximate): 18
+0194.684 (0) Table wp_term_relationships: Total rows added: 18 in 0.01 seconds
+0194.692 (0) Table wp_term_relationships: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0194.710 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0194.721 (0) Table wp_term_taxonomy: Total rows added: 4 in 0.01 seconds
+0194.728 (0) Table wp_term_taxonomy: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0194.746 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0194.755 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0194.762 (0) Table wp_termmeta: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_termmeta.table.gz - 0.4 KB)
+0194.780 (0) Table wp_terms: Total expected rows (approximate): 3
+0194.790 (0) Table wp_terms: Total rows added: 4 in 0.00 seconds
+0194.800 (0) Table wp_terms: finishing file (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_terms.table.gz - 0.4 KB)
+0194.819 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_options.table.gz (1/12): adding to final database dump
+0194.858 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_users.table.gz (2/12): adding to final database dump
+0194.867 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0194.876 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0194.885 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0194.895 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_links.table.gz (6/12): adding to final database dump
+0194.905 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0194.941 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0194.954 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0194.964 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0194.974 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0194.983 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0194.993 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db.gz: finished writing out complete database file (128 KB)
+0195.027 (0) Total database tables backed up: 12 (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db.gz, size: 149057, sha256)
+0195.053 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0195.059 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0195.064 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0195.069 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0195.074 (0) backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0195.079 (0) Saving backup history. Total backup size: 54 MB
+0195.093 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0195.113 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0195.119 (0) No remote despatch: user chose no remote backup service
+0195.125 (0) Recording as successfully uploaded: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-plugins.zip
+0195.135 (0) Recording as successfully uploaded: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-themes.zip
+0195.145 (0) Recording as successfully uploaded: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-uploads.zip
+0195.154 (0) Recording as successfully uploaded: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-others.zip
+0195.163 (0) Recording as successfully uploaded: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db.gz
+0195.194 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0195.202 (0) Number of backup sets in history: 3; groups (db): 1
+0195.213 (0) Examining (for databases) backup set with group_id=0, nonce=7f6f705d39c8, datestamp=1544745865 (Dec 14 2018 00:04:25)
+0195.219 (0) This backup set is the backup set just made, so will not be deleted.
+0195.220 (0) Examining (for databases) backup set with group_id=0, nonce=0f0f23f399f0, datestamp=1544733864 (Dec 13 2018 20:44:24)
+0195.221 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0195.227 (0) Examining (for databases) backup set with group_id=0, nonce=f8b493ec7822, datestamp=1544640127 (Dec 12 2018 18:42:07)
+0195.228 (0) 1544640127: db: this set includes a database (backup_2018-12-12-1842_Global_Futures_f8b493ec7822-db.gz); db count is now 2
+0195.228 (0) 1544640127: db: over retain limit (2); will delete this database
+0195.229 (0) Delete file: backup_2018-12-12-1842_Global_Futures_f8b493ec7822-db.gz, service=none
+0195.234 (0) Deleting local copy (backup_2018-12-12-1842_Global_Futures_f8b493ec7822-db.gz)
+0195.246 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0195.251 (0) Number of backup sets in history: 3; groups (files): 1
+0195.256 (0) Examining (for files) backup set with nonce=7f6f705d39c8, datestamp=1544745865 (Dec 14 2018 00:04:25)
+0195.257 (0) This backup set is the backup set just made, so will not be deleted.
+0195.261 (0) This backup set is the backup set just made, so will not be deleted.
+0195.263 (0) This backup set is the backup set just made, so will not be deleted.
+0195.266 (0) This backup set is the backup set just made, so will not be deleted.
+0195.268 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0195.273 (0) Examining (for files) backup set with nonce=0f0f23f399f0, datestamp=1544733864 (Dec 13 2018 20:44:24)
+0195.274 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0195.276 (0) Examining (for files) backup set with nonce=f8b493ec7822, datestamp=1544640127 (Dec 12 2018 18:42:07)
+0195.276 (0) plugins: over retain limit (2); will delete this file entity
+0195.277 (0) themes: over retain limit (2); will delete this file entity
+0195.277 (0) uploads: over retain limit (2); will delete this file entity
+0195.277 (0) others: over retain limit (2); will delete this file entity
+0195.278 (0) Delete file: backup_2018-12-12-1842_Global_Futures_f8b493ec7822-plugins.zip, service=none
+0195.284 (0) Deleting local copy (backup_2018-12-12-1842_Global_Futures_f8b493ec7822-plugins.zip)
+0195.289 (0) Delete file: backup_2018-12-12-1842_Global_Futures_f8b493ec7822-themes.zip, service=none
+0195.294 (0) Deleting local copy (backup_2018-12-12-1842_Global_Futures_f8b493ec7822-themes.zip)
+0195.300 (0) Delete file: backup_2018-12-12-1842_Global_Futures_f8b493ec7822-uploads.zip, service=none
+0195.305 (0) Deleting local copy (backup_2018-12-12-1842_Global_Futures_f8b493ec7822-uploads.zip)
+0195.311 (0) Delete file: backup_2018-12-12-1842_Global_Futures_f8b493ec7822-others.zip, service=none
+0195.316 (0) Deleting local copy (backup_2018-12-12-1842_Global_Futures_f8b493ec7822-others.zip)
+0195.326 (0) This backup set is now empty; will remove from history
+0195.331 (0) Deleting log file (log.f8b493ec7822.txt)
+0195.337 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0195.353 (0) Resume backup (7f6f705d39c8, 0): finish run
+0195.363 (0) Decremented the semaphore (fd) by 1
+0195.369 (0) Semaphore (fd) unlocked
+0195.375 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0195.391 (0) No email will/can be sent - the user has not configured an email address.
+0195.397 (0) The backup apparently succeeded and is now complete

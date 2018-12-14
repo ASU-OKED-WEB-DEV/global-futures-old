@@ -1,0 +1,8 @@
+0000.009 () Opened log file at time: Fri, 14 Dec 2018 18:05:39 +0000 on https://gfwp.lndo.site
+0000.010 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0 PHP: 7.1.25 (apache2handler, Linux b7d0772b1fd3 4.9.93-linuxkit-aufs #1 SMP Wed Jun 6 16:55:56 UTC 2018 x86_64) MySQL: 5.7.24 WPLANG: en_US Server: Apache/2.4.10 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.8M | 4M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.011 () Free space on disk containing Updraft's temporary directory: 311020 MB
+0000.015 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.047 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete Old Directories" button to delete them before trying again): /app/web/wp-content/plugins-old
+0000.052 () Restore failed...
+0000.053 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete Old Directories" button to delete them before trying again): /app/web/wp-content/plugins-old
+0000.053 () Restore failed

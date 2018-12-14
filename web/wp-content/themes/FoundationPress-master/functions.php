@@ -56,3 +56,9 @@ require_once( 'library/gutenberg.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
+//enqueues our external font awesome stylesheet
+add_action( 'wp_enqueue_scripts', 'enqueue_load_fa' );
+function enqueue_load_fa() {
+ 
+    wp_enqueue_style( 'load-fa', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
+}

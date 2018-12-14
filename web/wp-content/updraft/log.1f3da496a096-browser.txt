@@ -1,0 +1,28 @@
+0000.025 (R) [notice] Looking for db archive: file name: backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db.gz
+0000.025 (R) [notice] Archive is expected to be size: 145.6 KB: OK
+0000.034 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.045 (R) [notice] Unpacking backup... (backup_2018-12-14-0004_Global_Futures_7f6f705d39c8-db.gz, 0.1 Mb)
+0000.057 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.082 (R) [notice] Enabling Maintenance mode&#8230;
+0000.086 (R) [notice] Backup of: http://gfwp.lndo.site
+0000.194 (R) [notice] Content URL: http://gfwp.lndo.site/wp-content
+0000.196 (R) [notice] Uploads URL: http://gfwp.lndo.site/wp-content/uploads
+0000.197 (R) [notice] Old table prefix: wp_
+0000.199 (R) [notice] Site information: multisite = 0
+0000.204 (R) [notice] New table prefix: wp_
+0000.211 (R) [notice] Processing table (InnoDB):  wp_options
+0000.872 (R) [notice] Processing table (InnoDB):  wp_users
+0000.889 (R) [notice] Processing table (InnoDB):  wp_usermeta
+0000.906 (R) [notice] Processing table (InnoDB):  wp_commentmeta
+0000.922 (R) [notice] Processing table (InnoDB):  wp_comments
+0000.943 (R) [notice] Processing table (InnoDB):  wp_links
+0000.957 (R) [notice] Processing table (InnoDB):  wp_postmeta
+0001.054 (R) [notice] Processing table (InnoDB):  wp_posts
+0001.089 (R) [notice] Processing table (InnoDB):  wp_term_relationships
+0001.107 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy
+0001.124 (R) [notice] Processing table (InnoDB):  wp_termmeta
+0001.141 (R) [notice] Processing table (InnoDB):  wp_terms
+0001.163 (R) [notice] Disabling Maintenance mode&#8230;
+0001.164 (R) [notice] Finished: lines processed: 42 in 1.10 seconds
+0001.166 (R) [notice] Cleaning up rubbish...
+0001.231 (R) [notice] Restore successful!

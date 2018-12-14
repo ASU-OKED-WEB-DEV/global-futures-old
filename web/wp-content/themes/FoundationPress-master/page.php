@@ -9,7 +9,6 @@
  * @package FoundationPress
  * @since FoundationPress 1.0.0
  */
-
 get_header(); ?>
 
 <?php get_template_part( 'template-parts/featured-image' ); ?>
@@ -21,7 +20,6 @@ get_header(); ?>
 				<?php comments_template(); ?>
 			<?php endwhile; ?>
 		</main>
-
 	</div>
 </div>
 <?php
