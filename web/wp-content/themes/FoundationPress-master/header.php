@@ -11,6 +11,7 @@
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?> >
 	<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
 	<?php
     $request = wp_remote_get('https://www.asu.edu/asuthemes/4.6/heads/default.shtml');

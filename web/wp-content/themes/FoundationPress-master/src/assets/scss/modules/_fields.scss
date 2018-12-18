@@ -9,6 +9,7 @@
     .hero-header {
         background-color: rgba(37,37,37,.4);
         @include breakpoint (large) {
+            max-width: 1040px;
             padding:10px 20px;
             margin-top:67px;
             margin-bottom:50px;
@@ -190,6 +191,7 @@
                 padding-right:20px;
             }
             h3 {
+                font-weight: bold;
                 @include breakpoint (small) {
                     font-size:23px;
                     line-height: 28px;
@@ -214,6 +216,7 @@
             padding-top:60px;
         }
         .bullet-header {
+      
             @include breakpoint (large) {
                 margin-right:62px;
                 width:162px;
@@ -223,6 +226,7 @@
                 padding-right:20px;
             }
             h3 {
+                font-weight: bold;
                 @include breakpoint (small) {
                     font-size:23px;
                     line-height: 28px;
@@ -295,50 +299,62 @@
             padding-left:40px;
             padding-right:0px;
         }
-        .news-post {
-            border-bottom: 1px solid #ddd;
+        div.news-post {
+            border-bottom:1px solid #ddd;
             @include breakpoint (large) {
                 padding-bottom:24px;
             }
             @include breakpoint (medium down) {
                 padding-bottom:6px;
             }
-        }
-        h3 {
-            font-size:24px;
-            line-height:27px;
-            color:#8C1D40;
-            @include breakpoint (large) {
-                margin-top:40px;
+            &:not(:first-child) {
+                @include breakpoint (large) {
+                    margin-top:40px;
+                }
             }
-            @include breakpoint (medium down) {
-                margin-top:20px;
+            h3 {
+                font-weight: bold;
+                font-size:24px;
+                line-height:27px;
+                color:#8C1D40;
+                @include breakpoint (medium down) {
+                    margin-top:20px;
+                }
+            }
+            p {
+                font-size:18px;
+                line-height:25px;
+                font-weight: 300;
             }
         }
-        p {
-            font-size:18px;
-            line-height:25px;
-            font-weight: 300;
+    }
+    .read-more-button {
+        a {
+            background-color:#8C1D40;
+            padding:15px 40px 15px 24px;
+            color:#ffffff;
+            border-radius:30px;
+            &:hover {
+                background-color:darken(#8c1d40, 10%);
+            }
+            &::after {
+                display: inline-block;
+                margin-left:30px;
+                font: normal normal normal 18px/1 FontAwesome;
+                content:"\f061";
+            }
+        }
+        @include breakpoint (small only) {
+            margin: 30px auto;
         }
     }
 }
-.read-more-button {
-    a {
-        background-color:#8C1D40;
-        padding:15px 40px 15px 24px;
-        color:#ffffff;
-        border-radius:30px;
-        &:hover {
-            background-color:darken(#8c1d40, 10%);
-        }
-        &::after {
-            display: inline-block;
-            margin-left:30px;
-            font: normal normal normal 18px/1 FontAwesome;
-            content:"\f061";
-        }
+.news-post:nth-last-child(2)  {
+    border-bottom:none!important;
+    @include breakpoint (large) {
+        margin-bottom:36px;
     }
-    @include breakpoint (small only) {
-        margin: 30px auto;
-    }
+}
+.news-post:last-child {
+    background-color:#000000;
 }

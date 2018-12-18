@@ -38,6 +38,7 @@ get_header(); ?>
 
 			<div class="bullet-section content-wrap">
 				<div class="bullet-wrap-1">
+				<a name="goals"></a>
 					<div class="bullet-header">
 						<h3><?php 
 						$bullet = get_field('bullet_section');
@@ -50,6 +51,7 @@ get_header(); ?>
 				</div>
 				<hr />
 				<div class="bullet-wrap-2">
+				<a name="focusareas"></a>
 					<div class="bullet-header">
 						<h3><?php 
 						$bullet = get_field('bullet_section_2');
@@ -65,6 +67,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="leadership-section content-wrap">
+			<a name="leadership"></a>
 			<h2>Leadership</h2>
 				<div class="leader-flex">
 					<div class="leader-left">
@@ -95,30 +98,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="news-wrap content-wrap">
-				<?php
-
-				// The Query
-				$args = array(
-					'category_name' => 'news'
-				);
-				$the_query = new WP_Query( $args );
-				// The Loop
-				if ( $the_query->have_posts() ) {
-					while ( $the_query->have_posts() ) {
-						$the_query->the_post();?>
-						<div class="news-post">
-						<h3><?php the_title(); ?></h3>
-						<div class="news-info">
-						<?php the_author() . the_date();?>
-						<p><?php the_excerpt(); ?></p>
-						</div><?php
-					}
-					/* Restore original Post Data */
-					wp_reset_postdata();
-				} else {
-					// no posts found
-				}
-				?>
+			<a name="news"></a>
 				<div class="news-header">
 					<h2>News and Events</h2>
 				</div>
@@ -135,7 +115,11 @@ get_header(); ?>
 						while ( $the_query->have_posts() ) {
 							$the_query->the_post();?>
 							<div class="news-post">
-							<h3><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h3>
+							<h3><a href="<?php
+							 if(!empty(the_field('news_external_link'))){ 
+								 the_field('news_external_link'); 
+								 } else {
+									  the_permalink(); }?>"><?php the_title(); ?></a></h3>
 							<div class="news-info">
 								<div class="news-sub">
 									<div class="author"><?php the_author()?></div><div class="date"><?php echo get_the_date(); ?></div>
@@ -152,9 +136,10 @@ get_header(); ?>
 					?>
 					<div class="read-more-button">
 						<a href="<?php the_field('read_more_link'); ?>"><?php the_field('read_more_text'); ?></a>
+					</div>
 				</div>
 			</div>
-		</div>
+		</main>
 	</div>
 </div>
 <?php get_footer();
