@@ -191,6 +191,10 @@
                 padding-right:20px;
             }
             h3 {
+                @include breakpoint (large) {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
                 font-weight: bold;
                 @include breakpoint (small) {
                     font-size:23px;
@@ -199,6 +203,9 @@
             }
         }
         .bullet-content {
+            @include breakpoint (large) {
+                line-height:26px;
+            }
             @include breakpoint (medium only) {
                 margin-left:20px;
                 margin-right:20px;
@@ -226,6 +233,10 @@
                 padding-right:20px;
             }
             h3 {
+                @include breakpoint (large) {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
                 font-weight: bold;
                 @include breakpoint (small) {
                     font-size:23px;
@@ -236,6 +247,7 @@
         .bullet-content {
             @include breakpoint (large) {
                 width:402px;
+                line-height:26px;
             }
             &.middle {
                 @include breakpoint (large) {

@@ -68,6 +68,12 @@
 .page-content {
   max-width: 1044px;
   margin:0 auto;
+  p {
+    @include breakpoint (large) {
+      font-size:22px;
+      line-height:32px;
+    }
+  }
 }
 .asu-head {
   max-width:1276px;
