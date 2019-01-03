@@ -8,4 +8,5 @@ import Foundation from 'foundation-sites';
 // the line below
 //import './lib/foundation-explicit-pieces';
 
-$(document).foundation();
+$(document).foundation();    
+$("ul.dropdown.menu.desktop-menu li.home-icon a").replaceWith("<a href='#'><i class='fa fa-home fa-lg'></i></a>");

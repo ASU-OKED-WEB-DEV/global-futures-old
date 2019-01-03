@@ -150,11 +150,6 @@ ul.dropdown.menu.desktop-menu {
   li:first-child {
       a {
         color:#FFC627;
-        content:" ";
-        font:normal normal normal 18px/1 FontAwesome;
-        &::before {
-          content: "\f015";
-      }
     }
   }
 }
