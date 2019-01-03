@@ -106,7 +106,7 @@
   .top-bar-right {
     @include breakpoint (large) {
       margin-top:2px;
-      margin-left:80px;
+      margin-left:60px;
     }
     @include breakpoint (medium only) {
       margin-left: 20px;
@@ -121,9 +121,14 @@
 }
 .site-header {
   @include breakpoint (medium up) {
-    position:absolute;
-    height:55px;
-    top:114px;
+    position: absolute;
+    height: 55px;
+    top: 114px;
+    right: 0;
+    left: 0;
+    margin: 0 auto 0 0;
+    padding: 0 15px;
+    max-width: 1300px;
   }
   @include breakpoint (medium only) {
     width:100%;
@@ -144,10 +149,7 @@
 ul.dropdown.menu.desktop-menu {
   li:first-child {
       a {
-        font:normal normal normal 18px/1 FontAwesome;
-        &::before {
-          content: "\f015";
-      }
+        color:#FFC627;
     }
   }
 }
