@@ -13,7 +13,11 @@
             max-width: 1040px;
             padding:10px 20px;
             margin-top:142px;
-            margin-bottom:50px;
+        }
+        @include breakpoint (medium only) {
+            max-width: 1040px;
+            padding:10px 20px;
+            margin-top:50px;
         }
         h1 {
             padding-bottom:0px;
@@ -22,11 +26,8 @@
     .hero-subhead {
             @include breakpoint (large) {
                 max-width:1024px;
-                margin-top:50px;
-                margin-bottom:50px;
+                margin-top:21px;
                 padding-left:30px;
-                margin-left:238px;
-                border-left: 6px solid #FFC627;
             }
             @include breakpoint (small only) {
                 background-color: rgba(37,37,37,.4);
@@ -35,13 +36,20 @@
             font-size:22px;
             line-height:30px;
         }
+        .subhead-border {
+            @include breakpoint (large) {
+                border-left: 6px solid #FFC627;
+                padding-left:30px;
+                max-width: 778px;
+            }
+        }
     }
     .hero-tag {
         @include breakpoint (large) {
-            margin-top:50px;
             margin-bottom:50px;
             h2 {
                 font-size:32px;
+                padding:0px 20px;
                 line-height:32px;
             }
         }

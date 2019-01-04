@@ -70,6 +70,7 @@
   margin:0 auto;
   p {
     @include breakpoint (large) {
+      max-width: 844px;
       font-size:22px;
       line-height:32px;
     }

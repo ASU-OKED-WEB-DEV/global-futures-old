@@ -11,7 +11,9 @@ get_header(); ?>
 					<h1><?php the_field('hero_headline');?></h1>
 				</div>
 				<div class="hero-subhead">
-					<?php the_field('hero_subheadline');?>
+					<div class="subhead-border">
+						<?php the_field('hero_subheadline');?>
+					</div>
 				</div>
 				<div class="hero-tag">
 					<h2><?php the_field('hero_tagline')?></h2>
