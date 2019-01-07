@@ -34,7 +34,7 @@ get_header(); ?>
 					<h3><?php the_field('callout_quote')?></h3>
 				</div>
 				<div class="callout-author">
-					<?php the_field('callout_quote_author')?>
+					<p><?php the_field('callout_quote_author')?></p>
 				</div>
 			</div>
 
