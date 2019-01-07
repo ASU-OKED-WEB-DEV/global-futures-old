@@ -89,12 +89,16 @@ get_header(); ?>
 							<?php echo $leader['leader_bio'];?>
 						</div>
 						<div class="social-wrap">
+						<?php if (!empty($leader['leader_isearch'])) { ?>
 							<div class="isearch">
 								<a class="is-fa" href="<?php echo $leader['leader_isearch'];?>"><i class="fa fa-info-circle fa-lg"></i></a>
 							</div>
+						<?php } 
+							if (!empty($leader['leader_linkedin'])) { ?>
 							<div class="linkedin">
 								<a class="li-fa" href="<?php echo $leader['leader_linkedin'];?>"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
 							</div>
+							<?php } ?>
 						</div>
 					</div>
 				</div>
