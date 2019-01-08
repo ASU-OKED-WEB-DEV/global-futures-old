@@ -1,12 +1,9 @@
-name: gfwp
+name: global-futures
 recipe: wordpress
 config:
   webroot: .
-proxy:
-  pma:
-    - pma.wordpress.lndo.site
 services:
-  pma:
-    type: phpmyadmin
-    host:
-      - database
+  appserver:
+    type: php:7.1
+  database:
+    type: mysql:5.7

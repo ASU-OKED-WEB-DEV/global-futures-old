@@ -21,6 +21,8 @@
         }
         h1 {
             padding-bottom:0px;
+            text-shadow: none;
+            font-weight: bold;
         }
     }
     .hero-subhead {
@@ -45,6 +47,9 @@
         }
     }
     .hero-tag {
+        .gold-font {
+            font-weight: bold;
+        }
         @include breakpoint (large) {
             margin-bottom:50px;
             h2 {
@@ -71,6 +76,7 @@
         }
         h3 {
             text-shadow: 0 2px 4px #353535;
+            font-weight: 500;
             @include breakpoint (large) {
                 font-size:32px;
                 line-height:38px;
@@ -106,6 +112,7 @@
         font-size:30px;
         line-height:40px;
         color:#ffffff;
+        font-weight: bold;
         @include breakpoint (large) {
             margin-bottom:22px;
             padding-left:40px;
@@ -196,10 +203,13 @@
             max-width: 1102px!important;
             padding-top:40px;
             padding-bottom:60px;
+            padding-left: 47px;
+            padding-right: 47px;
         }
         .bullet-header {
             @include breakpoint (large) {
-                margin-right:142px;
+                margin-right:117px;
+                width: 200px;
             }
             @include breakpoint (medium only) {
                 padding-left:20px;
@@ -236,12 +246,14 @@
         @include breakpoint (large) {
             max-width: 1102px;
             padding-top:60px;
+            padding-left: 47px;
+            padding-right: 47px;
         }
         .bullet-header {
       
             @include breakpoint (large) {
                 margin-right:62px;
-                width:162px;
+                width:190px;
             }
             @include breakpoint (medium only) {
                 padding-left:20px;
@@ -293,7 +305,7 @@
 }
 .news-wrap {
     display: flex;
-    max-width:950px;
+    max-width:1000px;
     margin:0 auto;
     @include breakpoint (small only) {
         display: block;
@@ -306,7 +318,7 @@
     .news-header {
         @include breakpoint (large) {
             padding-left:0px;
-            padding-right:43px;
+            padding-right:62px;
         }
     }
     .news-sub {
@@ -386,4 +398,9 @@
 }
 .news-post:last-child {
     background-color:#000000;
+}
+.page-content {
+    .red-font {
+        font-weight: 500;
+    }
 }
