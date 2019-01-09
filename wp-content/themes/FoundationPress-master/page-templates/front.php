@@ -119,13 +119,12 @@ get_header(); ?>
 					// The Loop
 					if ( $the_query->have_posts() ) {
 						while ( $the_query->have_posts() ) {
-							$the_query->the_post();?>
+							$the_query->the_post();
+							//$link = the_permalink();
+
+							?>
 							<div class="news-post">
-							<h3><a href="<?php
-							 if(!empty(the_field('news_external_link'))){ 
-								 the_field('news_external_link'); 
-								 } else {
-									  the_permalink(); }?>"><?php the_title(); ?></a></h3>
+							<h3><a href="<?php the_field('news_external_link'); ?>" target="_blank"><?php the_title(); ?></a></h3>
 							<div class="news-info">
 								<div class="news-sub">
 									<div class="author"><?php the_author()?></div><div class="date"><?php echo get_the_date(); ?></div>
