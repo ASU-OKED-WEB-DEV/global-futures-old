@@ -119,10 +119,7 @@ get_header(); ?>
 					// The Loop
 					if ( $the_query->have_posts() ) {
 						while ( $the_query->have_posts() ) {
-							$the_query->the_post();
-							//$link = the_permalink();
-
-							?>
+							$the_query->the_post(); ?>
 							<div class="news-post">
 							<h3><a href="<?php the_field('news_external_link'); ?>" target="_blank"><?php the_title(); ?></a></h3>
 							<div class="news-info">
