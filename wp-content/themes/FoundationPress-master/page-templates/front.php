@@ -106,7 +106,7 @@ get_header(); ?>
 			<div class="news-wrap content-wrap">
 			<a name="news"></a>
 				<div class="news-header">
-					<h2>News and Events</h2>
+					<h2>News and events</h2>
 				</div>
 				<div class="news-posts">
 					<?php
