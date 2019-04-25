@@ -57,8 +57,7 @@ class MWP_EventListener_PublicRequest_AddConnectionKeyInfo implements Symfony_Ev
             return false;
         }
 
-        mwp_refresh_live_public_keys(array());
-        return true;
+        return mwp_refresh_live_public_keys(array());
     }
 
     protected function checkForDeletedConnectionKey()
@@ -183,20 +182,18 @@ class MWP_EventListener_PublicRequest_AddConnectionKeyInfo implements Symfony_Ev
             <?php } ?>
 
             jQuery(document).ready(function ($) {
-                var $connectionKeyDialog = $('#mwp_connection_key_dialog');
-
-                $('#mwp-view-connection-key').click(function (e) {
+                $(document).on('click', '#mwp-view-connection-key', function (e) {
                     e.preventDefault();
                     $(document).trigger('mwp-connection-dialog');
                 });
 
-                $('button.copy-key-button').click(function () {
+                $(document).on('click', 'button.copy-key-button', function () {
                     $('#connection-key').select();
                     document.execCommand('copy');
                 });
 
                 $(document).on('mwp-connection-dialog', function () {
-                    $connectionKeyDialog.dialog({
+                    $('#mwp_connection_key_dialog').dialog({
                         dialogClass: "mwp-dialog",
                         draggable: false,
                         resizable: false,
@@ -381,7 +378,18 @@ class MWP_EventListener_PublicRequest_AddConnectionKeyInfo implements Symfony_Ev
                 echo esc_html__('Copy', 'worker'); ?>
             </button>
 
-            <?php if ($refreshedKeys) { ?>
+            <?php if ($refreshedKeys !== false) { ?>
+                <p>
+                    <?php
+                    if ($refreshedKeys['success'] === true) {
+                        echo 'Keys successfully refreshed!';
+                    } else {
+                        echo 'Keys were not successfully refreshed. Error: '.$refreshedKeys['message'];
+                    } ?>
+                </p>
+                <p>
+                    <?php echo 'Last communication error: '.$this->context->optionGet('mwp_last_communication_error', '') ?>
+                </p>
                 <p><?php
                     /** @handled function */
                     echo esc_html__('Currently loaded keys:', 'worker'); ?>
